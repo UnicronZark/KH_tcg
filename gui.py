@@ -17,8 +17,6 @@ def hostingGui(sq, tkq, window, hostB, connectB):
 
     print(tkq.get())
 
-    
-
 def connectToIP(sq, tkq, window, conE):
     IP = conE.get()
     window.destroy()
@@ -43,7 +41,6 @@ def changingGui(sq, tkq):
     hostB.pack()  
     connectB = Button(window, text="Connect", command=lambda: connectingGui(sq, tkq, window, hostB, connectB))
     connectB.pack()
-
 
 def openGui(tkq):
 

@@ -3,8 +3,6 @@ import queue
 from gui import openGui, changingGui
 from connections import gettingStarted
 
-
-
 if __name__ == "__main__":
     sq = queue.Queue()
     tkq = queue.Queue()
